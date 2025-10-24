@@ -1,0 +1,74 @@
+body{
+background-image: url("./Assets/Telugu\ movies\ poster.jpeg");
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: lightblue;
+    box-shadow: 3px 3px 3px 3px rgb(7, 13, 20);;
+    border-radius: 10px;
+}
+.logo-img{
+    flex: 1;
+}
+.logo-img-1{
+    width: 100px;
+    height: auto;
+}
+.heading{
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+    justify-content: center;
+}
+.btn-cls{
+    flex: 1;
+    text-align: right;
+}
+.btn1,.btn2{
+    padding: 5px 15px;
+    margin-left: 10px;
+    border: none;
+    color: rgb(5, 5, 5);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: larger;
+    border-radius: 5px;
+    background-color: lightblue;
+}
+.btn1:hover , .btn2:hover{
+    background-color: #007bff;
+}
+.container{
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    background-color: #6f8dad;
+    border-radius: 25px;
+    margin-top: 200px;
+    padding: 0px;
+}
+.cls-1{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: hsl(0, 0%, 97%);
+    padding-top: 20px;
+    margin-bottom: 0px;
+}
+.cls-2{
+    color: white;
+    padding: 0px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.cls-3{
+    color: white;
+    font-size: larger;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    padding-bottom: 20px;
+}
+b{
+    color: rgb(46, 13, 13);
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <label>Full Name: </label>
+        <input type="text" placeholder="Enter your Name"  id="name"/><br>
+    </div>
+    <div>
+        <label>Email-Id :</label>
+        <input type="email" placeholder="Enter your Email-id"  id="email"/><br>
+    </div>
+    <div>
+        <label>Password: </label>
+        <input type="password" placeholder="Enter your password"  id="org-pwd"/><br>
+    </div>
+    <div>
+        <label>Re-Enter Password: </label>
+        <input type="password" placeholder="Enter your password"  id="dup-pwd"/><br>
+    </div>
+    <div>
+        <input type="submit" onclick="submission()" value="Submit"/>
+    </div>
+    <script>
+        function submission()
+            {
+                let name =document.getElementById('name').value
+                let email_id =document.getElementById('email').value
+                let pwd =document.getElementById('org-pwd').value
+                let pwd1=document.getElementById('dup-pwd').value
+                if(pwd===pwd1)
+                document.write("Your  are successfully registered with name "+name +" and  with email "+email_id)
+                else
+                document.write("Check your password")
+            }
+    </script>
+</body>
+</html>
